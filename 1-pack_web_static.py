@@ -7,6 +7,7 @@ from datetime import datetime
 
 def do_pack():
     """Function to compress directory
+
     Return: path to archive on success; None on fail
     """
     # Get current time

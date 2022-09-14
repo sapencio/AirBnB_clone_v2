@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Console Module """
+"""This is the console for AirBnB"""
 import cmd
 from models import storage
 from datetime import datetime
@@ -287,5 +287,5 @@ class HBNBCommand(cmd.Cmd):
         except ValueError:
             return False
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     HBNBCommand().cmdloop()
