@@ -12,6 +12,7 @@ from models.place import Place
 from models.review import Review
 from shlex import split
 
+
 class HBNBCommand(cmd.Cmd):
     """this class is entry point of the command interpreter
     """
