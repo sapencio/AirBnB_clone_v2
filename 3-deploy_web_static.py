@@ -9,7 +9,6 @@ from fabric.api import put
 from fabric.api import run
 
 env.hosts = ["44.210.236.120", "34.204.181.124"]
-env.user = [ubuntu]
 
 
 def do_pack():
